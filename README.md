@@ -12,7 +12,7 @@ GO THROUGH THE ATTACHED PDF TO IMPORT ANY MODULES REQUIRED PRIOR TO RUNNING THE 
    * Repeat step 4 again for a restart of the process.
 
 
-Contributors
+## Contributors ##
 1.  Bhavin Amesara
 2.  Souhardya Sarkar
 3.  Atharv Shirke
