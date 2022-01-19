@@ -10,3 +10,11 @@ GO THROUGH THE ATTACHED PDF TO IMPORT ANY MODULES REQUIRED PRIOR TO RUNNING THE 
    * Task Manager > Details tab > scroll down to find pyw.exe process running.
    * Select the process and click end task followed by End Process button.
    * Repeat step 4 again for a restart of the process.
+
+
+Contributors
+1.  Bhavin Amesara
+2.  Souhardya Sarkar
+3.  Atharv Shirke
+4.  Shan Thakkar
+5.  Anish Shah
