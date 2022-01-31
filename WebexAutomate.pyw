@@ -25,6 +25,10 @@ def practical():
 def ibm():
     webbrowser.open_new_tab("https://bit.ly/IBMWAD")
     time.sleep(2700)
+    
+def french():
+    webbrowser.open_new_tab("https://guni.webex.com/meet/ICT-FRENCH")
+    time.sleep(2700)
 
 def A41():
     schedule.every().monday.at("08:09:30").do(theoryA)
@@ -45,6 +49,7 @@ def A41():
     schedule.every().friday.at("10:04:30").do(ibm)
     schedule.every().friday.at("12:29:30").do(ibm)
     schedule.every().friday.at("13:19:30").do(theoryA)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:40").do(term)
     while True:
         schedule.run_pending()
@@ -68,6 +73,7 @@ def A42():
     schedule.every().friday.at("10:04:30").do(practical)
     schedule.every().friday.at("12:29:30").do(ibm)
     schedule.every().friday.at("13:19:30").do(theoryA)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:40").do(term)
     while True:
         schedule.run_pending()
@@ -91,6 +97,7 @@ def A43():
     schedule.every().friday.at("10:04:30").do(practical)
     schedule.every().friday.at("12:29:30").do(ibm)
     schedule.every().friday.at("13:19:30").do(theoryA)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:40").do(term)
     while True:
         schedule.run_pending()
@@ -103,7 +110,7 @@ def B44():
     schedule.every().tuesday.at("08:59:30").do(theoryB)
     schedule.every().tuesday.at("10:04:30").do(practical)
     schedule.every().tuesday.at("12:29:30").do(theoryB)
-    schedule.every().wednesday.at("08:59:30").do(theoryB)
+    schedule.every().wednesday.at("08:09:30").do(theoryB)
     schedule.every().wednesday.at("10:04:30").do(practical)
     schedule.every().wednesday.at("12:29:30").do(practical)
     schedule.every().thursday.at("08:09:30").do(theoryB)
@@ -114,6 +121,7 @@ def B44():
     schedule.every().friday.at("08:59:30").do(theoryB)
     schedule.every().friday.at("10:04:30").do(practical)
     schedule.every().friday.at("12:29:30").do(theoryB)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:40").do(term)
     while True:
         schedule.run_pending()
@@ -126,7 +134,7 @@ def B45():
     schedule.every().tuesday.at("08:59:30").do(theoryB)
     schedule.every().tuesday.at("10:04:30").do(practical)
     schedule.every().tuesday.at("12:29:30").do(theoryB)
-    schedule.every().wednesday.at("08:59:30").do(theoryB)
+    schedule.every().wednesday.at("08:09:30").do(theoryB)
     schedule.every().wednesday.at("10:04:30").do(ibm)
     schedule.every().wednesday.at("12:29:30").do(practical)
     schedule.every().thursday.at("08:09:30").do(theoryB)
@@ -137,6 +145,7 @@ def B45():
     schedule.every().friday.at("08:59:30").do(theoryB)
     schedule.every().friday.at("10:04:30").do(practical)
     schedule.every().friday.at("12:29:30").do(theoryB)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:40").do(term)
     while True:
         schedule.run_pending()
@@ -149,7 +158,7 @@ def B46():
     schedule.every().tuesday.at("08:59:30").do(theoryB)
     schedule.every().tuesday.at("10:04:30").do(practical)
     schedule.every().tuesday.at("12:29:30").do(theoryB)
-    schedule.every().wednesday.at("08:59:30").do(theoryB)
+    schedule.every().wednesday.at("08:09:30").do(theoryB)
     schedule.every().wednesday.at("10:04:30").do(practical)
     schedule.every().wednesday.at("12:29:30").do(ibm)
     schedule.every().thursday.at("08:09:30").do(theoryB)
@@ -160,6 +169,7 @@ def B46():
     schedule.every().friday.at("08:59:30").do(theoryB)
     schedule.every().friday.at("10:04:30").do(practical)
     schedule.every().friday.at("12:29:30").do(theoryB)
+    schedule.every().saturday.at("09:59:30").do(french)
     schedule.every().day.at("16:00:00").do(term)
     while True:
         schedule.run_pending()
