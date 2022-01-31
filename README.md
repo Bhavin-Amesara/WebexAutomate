@@ -18,3 +18,5 @@ GO THROUGH THE ATTACHED PDF TO IMPORT ANY MODULES REQUIRED PRIOR TO RUNNING THE 
 3.  Atharv Shirke
 4.  Shan Thakkar
 5.  Anish Shah
+
+``` If you want to change the code you can change it, as per the updation of timetable. ```
